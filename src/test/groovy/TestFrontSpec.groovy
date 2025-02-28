@@ -10,10 +10,10 @@ import java.nio.file.Files
 import java.nio.file.Paths
 
 
-class TestSpec extends GebSpec {
+class TestFrontSpec extends GebSpec {
 
     def setup() {
-        println "⚙️ Configurando WebDriverManager..."
+        println "Configurando WebDriverManager..."
 
         // Forzar la instalación de ChromeDriver correcto
         WebDriverManager.chromedriver().setup()
@@ -43,12 +43,12 @@ class TestSpec extends GebSpec {
 
         // Inicializar el driver con opciones
         driver = new ChromeDriver(options)
-        println "✅ ChromeDriver iniciado correctamente"
+        println "ChromeDriver iniciado correctamente"
     }
 
     def cleanup() {
         if (driver) {
-            println "🛑 Cerrando el navegador"
+            println "Cerrando el navegador"
             driver.quit()
         }
     }
