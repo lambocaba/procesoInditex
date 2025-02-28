@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PetstoreApiSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-28T17:46:34" hostname="DESKTOP-4NBUQDV" time="1.081">
+  <properties/>
+  <testcase name="Listar nombres de mascotas vendidas y nombres repetidos" classname="PetstoreApiSpec" time="1.081"/>
+  <system-out><![CDATA[Lista de mascotas vendidas:
+{id: 156453.0, name: Updated Pet Name}
+{id: 497046.0, name: Updated Pet Name}
+{id: 246977.0, name: Updated Pet Name}
+{id: 661323.0, name: Updated Pet Name}
+{id: 9.223372036854776E18, name: Mia}
+{id: 720503.0, name: Updated Pet Name}
+{id: 391699.0, name: Updated Pet Name}
+{id: 6012.0, name: bunny}
+{id: 17.0, name: Special_char_owner_!@#$^&()`.testing}
+{id: 837275.0, name: Updated Pet Name}
+{id: 989065.0, name: Updated Pet Name}
+{id: 676878.0, name: Special_char_owner_!@#$^&()`.testing}
+{id: 9008.0, name: b0VZyTs0E3}
+{id: 460.0, name: Pet-bzwrbo}
+{id: 7.0, name: toto}
+{id: 9010.0, name: doggie}
+{id: 7313.0, name: hamster}
+{id: 9.0, name: King Kong}
+{id: 955073.0, name: Updated Pet Name}
+{id: 9.2233720368547763E17, name: choppy dog 27}
+{id: 962992.0, name: Updated Integrity Test Pet}
+{id: 525.0, name: doggie}
+{id: 673703.0, name: doggie}
+{id: 552877.0, name: doggie}
+{id: 1525.0, name: doggie}
+{id: 772898.0, name: Updated Pet Name}
+{id: 545837.0, name: Updated Integrity Test Pet}
+{id: 137.0, name: doggie}
+{id: 9.2233720368777779E17, name: doggie-boggie}
+{id: 691.0, name: doggie}
+{id: 3409.0, name: Neo}
+{id: 788.0, name: doggie}
+{id: 2.0593238E7, name: doggie}
+{id: 7647.0, name: doggie}
+{id: 88.0, name: Coco}
+{id: 401.0, name: Maxfacor}
+{id: 9.2233720368547584E18, name: Dog Jack}
+{id: 12.0, name: Fido}
+{id: 9.40434793E8, name: IjBYWwiwXdToTD}
+{id: 1.18650001E8, name: Bob}
+Conteo de nombres repetidos de mascotas vendidas:
+Updated Pet Name: 10
+Updated Integrity Test Pet: 2
+doggie: 10
+Special_char_owner_!@#$^&()`.testing: 2
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
