@@ -13,6 +13,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
 - **Java 11**
 - **Gradle 7.4**
+- **Google Chrome**
 - **IntelliJ IDEA** (Recomendado, pero puedes usar Eclipse u otro IDE compatible con Groovy y Spock)
 
 ## 📂 Estructura del Proyecto
@@ -66,7 +67,7 @@ También se puede ejecutar desde el IDE.
 
 ### Ejercicio 3
 ```sh
-  gradle test --tests PetStoreApiSpec
+  gradle test --tests PetstoreApiSpec
   ```
 También se puede ejecutar desde el IDE.
 Esto ejecutará tanto el caso de la creación del usuario mediante la API, como el listado de mascotas y sus nombres repetidos
@@ -78,7 +79,7 @@ gradle test
 
 ### Ejecutar pruebas específicas
 ```sh
-./gradlew test --tests "PetstoreApiSpec.Se crea un usuario correctamente y se devuelven sus datos"
+.\gradlew test --tests "PetstoreApiSpec.Se crea un usuario correctamente y se devuelven sus datos"
 
 ```
 ## 📊 Ejemplo de salida real Ejercicio 2
