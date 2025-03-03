@@ -39,7 +39,9 @@ class TestFrontSpec extends GebSpec {
         options.setExperimentalOption("useAutomationExtension", false)
 
         // Forzar Selenium a usar un ChromeDriver específico
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe")
+        String driverPath = System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", driverPath);
+
 
         // Inicializar el driver con opciones
         driver = new ChromeDriver(options)
